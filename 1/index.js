@@ -26,12 +26,16 @@
 // runTime()
 // console.log(lapsCompleted)
 
-// 1. Grab the box from the DOM and store it in a variable
-// 2. Add a click event listener to the box 
-// 3. Log out "I want to open the box!" when it's clicked
+//
+//********** Event Listeners **********//
 
-let box = document.querySelector("#box")
-box.addEventListener("click", function(){
-    console.log("I want to open the box!")
-})
+// let box = document.querySelector("#box")
+// box.addEventListener("click", function(){
+//     console.log("I want to open the box!")
+// })
 
+//********** Buy Button **********//
+// Use .innerHTML to render a Buy! button inside the div container
+
+let container = document.querySelector("#container")
+container.innerHTML = "<button>Buy!</button>"
