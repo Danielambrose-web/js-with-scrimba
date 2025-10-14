@@ -1,3 +1,4 @@
+//*******/
 //let myPoints = 3
 
 // function add3Points(){
@@ -14,18 +15,23 @@
 
 // console.log(myPoints)
 
-// Create a function that increments the lapsCompleted variable with one
-// Run it three times
+//******** Laps Completed **********//
+// let lapsCompleted = 0
 
-let lapsCompleted = 0
+// function runTime(){
+//     lapsCompleted ++
+// }
+// runTime()
+// runTime()
+// runTime()
+// console.log(lapsCompleted)
 
+// 1. Grab the box from the DOM and store it in a variable
+// 2. Add a click event listener to the box 
+// 3. Log out "I want to open the box!" when it's clicked
 
-function runTime(){
-    lapsCompleted ++
-}
-runTime()
-runTime()
-runTime()
-
-console.log(lapsCompleted)
+let box = document.querySelector("#box")
+box.addEventListener("click", function(){
+    console.log("I want to open the box!")
+})
 
