@@ -37,5 +37,19 @@
 //********** Buy Button **********//
 // Use .innerHTML to render a Buy! button inside the div container
 
-let container = document.querySelector("#container")
-container.innerHTML = "<button>Buy!</button>"
+/*let container = document.querySelector("#container")
+container.innerHTML = "<button>Buy!</button>"*/
+//method 2
+// const wayII = document.createElement("button")
+// wayII.textContent = "Buy!"
+// container.append(wayII)
+
+
+
+ // template strings/literals
+const recipient = "James"
+
+// Refactor the email string to use template strings
+const email =  `Hey ${recipient}! How is it going? Cheers Per`
+
+console.log(email)
